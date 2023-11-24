@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+body {
+  font-family: "Public Sans" sans-serif;
+}
+#header {
+  padding: 20px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-text a:hover {
+  color: rgb(10, 10, 238);
+}
+.header-text a {
+  color: #19272e;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  margin: 30px;
+}
+.header-icon:hover {
+  color: brown;
+}
+.header-icon span {
+  margin: 10px;
+  width: 34px;
+  height: 34px;
+}
+#hero {
+  padding: 200px;
+  background: url(./img/Main\ image.png);
+}
+.hero {
+  text-align: center;
+  align-items: center;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  padding: 20px;
+}
+.hero p {
+  color: #19272e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+#Genres {
+  padding: 90px 0;
+}
+.Genres-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.Genres-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Genres-text h1 {
+  color: #19272e;
+  font-size: 48px;
+  font-weight: 500;
+}
+.Genres-text h5 {
+  color: #818eea;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Genres-card {
+  background: #f5f5f5;
+  display: flex;
+  width: 148px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.Genres-card h3 {
+  color: #19272e;
+  font-size: 28px;
+  font-weight: 500;
+}
+#newbook {
+  padding: 70px;
+}
+.book-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+}
+.book-text {
+  color: #19272e;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+}
+.book-img {
+  margin: 0px 50px;
+}
+.book-img h2 {
+  color: #19272e;
+  font-size: 18px;
+  font-weight: 700;
+}
+.book-img p {
+  color: #19272e;
+  font-size: 18px;
+  font-weight: 400;
+}
+#books {
+  padding: 80px;
+}
+.book-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.book-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.book-text {
+  margin: 0px 10px;
+}
+.book-title h1 {
+  color: #19272e;
+  font-size: 48px;
+  font-weight: 500;
+}
+.book-title p {
+  color: #818eea;
+  font-size: 18px;
+  font-weight: 500;
+}
+.book-text h2 {
+  color: #19272e;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+.book-text p {
+  color: #19272e;
+  font-size: 16px;
+  font-weight: 400;
+}
+#about {
+  padding: 60px;
+}
+.about h1 {
+  color: #19272e;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+}
+.about-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-book p {
+  color: #19272e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+#footer {
+  padding: 70px;
+  background: #818eea;
+}
+.footer-nav h1 {
+  color: #fff;
+  /* Heading 03 */
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+.footer-nav p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  padding: 20px;
+}
+.footer-nav button {
+  width: 398px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0.5px solid #ffffff00;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer :hover {
+  color: chartreuse;
+}
+.footer-main h2 {
+  display: flex;
+  color: #fff;
+  /* Heading 05 */
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  padding: 20px;
+}
+.footer-main a {
+  color: #fff;
+
+  /* Paragraph 03 */
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  margin: 6px;
+}
